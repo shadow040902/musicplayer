@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🎵 Trình phát nhạc 2024</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #4c4f6a);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+    }
+
+    .player-container {
+      background-color: #2b2e4a;
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+      width: 90%;
+      max-width: 500px;
+      text-align: center;
+    }
+
+    .player-container h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .music-icon {
+      font-size: 60px;
+      margin-bottom: 20px;
+      color: #ffc107;
+    }
+
+    audio {
+      width: 100%;
+      outline: none;
+      border-radius: 10px;
+      background: #444;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="player-container">
+    <div class="music-icon">🎧</div>
+    <h1>Nhạc hot 2024 từ Dropbox</h1>
+    <audio controls>
+      <source src="https://dl.dropboxusercontent.com/scl/fi/8j8tpxuigfp1239vbx17z/nhac2024.mp3?rlkey=3n8yhk71f5awj5pmzghkwv6mn&st=62sboevz" type="audio/mp3">
+      Trình duyệt không hỗ trợ audio.
+    </audio>
+    <div class="footer">Phát triển bởi bạn 😎</div>
+  </div>
+</body>
+</html>
